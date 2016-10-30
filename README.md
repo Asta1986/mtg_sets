@@ -1,4 +1,4 @@
-This is a script to rename xlhq files and folders according to the
+This is a tiny script to rename xlhq files and folders according to the
 conventions used by the program Forge.
 Since at the moment not all correspondences have been established,
 it would be best to first download

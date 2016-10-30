@@ -51,4 +51,5 @@ if __name__ == '__main__':
         if (dir in local_dirs) and (os.path.isdir(dp)):
             rename_files(dp)
 
-    print("All done.")
+    print("All done. Renaming complete.")
+

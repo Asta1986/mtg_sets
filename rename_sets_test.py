@@ -1,4 +1,4 @@
-from rename_sets import rename_files
+import rename_sets
 import os
 import unittest
 import shutil
@@ -14,7 +14,7 @@ class TestRenameSetsScript(unittest.TestCase):
         expected_file_name = 'AEtherAErathi#.full.img'
         test_dir = 'test_dir'
         os.system('touch ' + test_dir + '/' + test_file_name)
-        rename_files(test_dir)
+        rename_sets.rename_files(test_dir)
         self.assertTrue(os.path.exists(test_dir + '/' + expected_file_name))
         self.assertFalse(os.path.exists(test_dir + '/' + test_file_name))
 
