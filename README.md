@@ -14,3 +14,5 @@ On windows run in terminal 'C:\Python35\python.exe C:\path\rename_sets.py'.
 Then finally enter the path to the folder
 where the xlhq uncompressed set folders are located,
 including the last separator (i. e. '/home/user/Downloads/').
+
+By ASTA[0-9]{4}.
